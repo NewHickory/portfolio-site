@@ -1,0 +1,74 @@
+/* div * {
+  padding: 1px;
+  margin: 1px;
+  border: 1px solid black;
+} */
+
+body, html {
+  height: 800px;
+}
+
+.navbar {
+  width: 100%;;
+  position: fixed;
+}
+
+.navbar-brand {
+  width: 200px;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navbar-nav {
+  right: 0px;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.parallax-1 {
+  height: 400px;
+  background-image: url("/img/west_texas.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Give the value "fixed" to the background-attachment property to create the parallax scrolling effect */
+  background-attachment: fixed;
+  margin-bottom: 10px;
+}
+
+.parallax-2 {
+  height: 400px;
+  background-image: url("/img/shanghai.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Give the value "fixed" to the background-attachment property to create the parallax scrolling effect */
+  background-attachment: fixed;
+  margin-bottom: 10px;
+}
+
+.parallax-3 {
+  height: 400px;
+  background-image: url("/img/washington_dc.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Give the value "fixed" to the background-attachment property to create the parallax scrolling effect */
+  background-attachment: fixed;
+  margin-bottom: 10px;
+}
+
+.parallax-4 {
+  height: 400px;
+  background-image: url("/img/austin.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Give the value "fixed" to the background-attachment property to create the parallax scrolling effect */
+  background-attachment: fixed;
+  margin-bottom: 10px;
+}
