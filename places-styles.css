@@ -39,20 +39,10 @@ body * {
   background-color: white;
 }
 
-.col {
-  margin: auto;
-}
-
 .banner-text {
   text-align: center;
-  justify-content: center;
-  font-size: small;
-  padding: 10px;
-  margin: auto;
-}
-
-.banner-img {
-  padding: 10px;
+  font-size: x-large;
+  margin: 20px;
 }
 
 .overlay-content {
@@ -84,10 +74,33 @@ body * {
   margin: 10px;
 }
 
-.lone-oak-img {
-  background-image: url("/img/lone-oak-tree.jpg");
+.west-texas-img {
+  background-image: url("/img/west_texas.jpg");
 }
 
+.xian-img {
+  background-image: url("/img/xian-bell-tower.jpg");
+}
+
+.hk-img {
+  background-image: url("/img/hong-kong-1.jpg");
+}
+
+.shanghai-img {
+  background-image: url("/img/shanghai.jpg");
+}
+
+.nanjing-img {
+  background-image: url("/img/nanjing-2.jpg");
+}
+
+.dc-img {
+  background-image: url("/img/washington_dc.jpg");
+}
+
+.austin-img {
+  background-image: url("/img/austin.jpg");
+}
 
 footer {
   background-color: rgba(248, 249, 250, 1);
