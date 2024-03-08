@@ -83,7 +83,7 @@ body * {
 .lone-oak-img {
   background-image: url("./img/lone-oak-tree.jpg");
   filter: brightness(0.90) saturate(0%);
-  opacity: 0.1;
+  opacity: 0.3;
 }
 
 footer {
