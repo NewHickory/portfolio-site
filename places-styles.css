@@ -37,12 +37,15 @@ body * {
   width: 80%;
   margin: auto;
   background-color: white;
+  /* border: 3px dotted red; */
 }
 
 .banner-text {
+  position: relative;
   text-align: center;
-  font-size: x-large;
-  margin: 20px;
+  font-size: medium;
+  color: rgb(80, 80, 80);
+  margin: 40px;
 }
 
 .overlay-content {
@@ -64,8 +67,16 @@ body * {
   font-size: medium;
 }
 
+#text {
+  font-size: small;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
 .parallax {
-  height: 400px;
+  height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,6 +87,10 @@ body * {
 
 .west-texas-img {
   background-image: url("/img/west_texas.jpg");
+}
+
+.dallas-img {
+  background-image: url("/img/dallas.jpg");
 }
 
 .xian-img {

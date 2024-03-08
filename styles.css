@@ -30,52 +30,47 @@ body * {
 }
 
 .nav-buffer {
-  height: 60px;
+  height: 50px;
+  z-index: 10;
+  background-color: white;
+  border: 1px solid orange;
 }
 
 .main-container {
-  width: 80%;
+  width: 90%;
   margin: auto;
   background-color: white;
-}
-
-.col {
-  margin: auto;
-}
-
-.banner-text {
-  text-align: center;
-  justify-content: center;
-  font-size: small;
-  padding: 10px;
-  margin: auto;
-}
-
-.banner-img {
-  padding: 10px;
 }
 
 .overlay-content {
   text-align: center;
   position: relative;
+  justify-content: center;
 }
 
 .overlay-text {
   position: absolute;
-  color: white;
-  bottom: 2%;
-  right: 3%;
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    );
-  padding: 3px;
-  font-size: medium;
+  color: black;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: auto;
+  /* border: 3px solid green; */
+  .text {
+    text-align: left;
+    margin: auto;
+    /* border: 1px solid blue; */
+  }
+  .image {
+    margin: auto;
+    text-align: right;
+    /* border: 1px solid orange; */
+  }
 }
 
 .parallax {
-  height: 400px;
+  height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,8 +81,9 @@ body * {
 
 .lone-oak-img {
   background-image: url("/img/lone-oak-tree.jpg");
+  filter: brightness(0.90) saturate(0%);
+  opacity: 0.1;
 }
-
 
 footer {
   background-color: rgba(248, 249, 250, 1);

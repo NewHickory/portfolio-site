@@ -40,9 +40,22 @@ body * {
 }
 
 .banner-text {
+  position: relative;
   text-align: center;
-  font-size: x-large;
-  margin: 20px;
+  font-size: medium;
+  color: rgb(80, 80, 80);
+  margin: 40px;
+}
+
+
+.substack-embed {
+  height: 400px;
+  text-align: center;
+}
+
+h2 {
+  margin: auto;
+  line-height: 400px;
 }
 
 

@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
     <link rel="stylesheet" href="work-styles.css">
   </head>
   
@@ -24,11 +24,11 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link" href="index.html">Home</a>  
-            <a class="nav-link" href="bio.html">Bio</a> 
+            <a class="nav-link" href="bio.html">Biography</a> 
             <a class="nav-link active" aria-current="page" href="#">Work</a> 
             <a class="nav-link" href="places.html">Places</a> 
-            <a class="nav-link" href="blog.html">Blog</a> 
             <a class="nav-link" href="library.html">Library</a> 
+            <a class="nav-link" href="blog.html">Blog</a> 
           </div>
         </div>
       </div>
@@ -39,35 +39,79 @@
     <div class="main-container">
       <div class="container-fluid">
   
-        <article class="banner-text">If you can meet with Triumph and Disaster <br>
-          And treat those two impostors just the same.</article>
+        <blockquote class="banner-text">"Or watch the things you gave your life to, broken,<br>
+          And stoop and build ’em up with worn-out tools."</blockquote>
       
       </div>
 
-      <div class="container text-center">
+      <div class="container-work">
+          
         <div class="row">
-          <div class="col">
-            <article class="banner-text">If you can keep your head when all about you <br> 
-              Are losing theirs and blaming it on you, <br>
-          If you can trust yourself when all men doubt you, <br>
-              But make allowance for their doubting too; <br>
-          If you can wait and not be tired by waiting, <br>
-              Or being lied about, don’t deal in lies, <br>
-          Or being hated, don’t give way to hating, <br>
-              And yet don’t look too good, nor talk too wise:</article>
+          
+          <div class="col-5 text">
+            <h2>Work</h2>
+            <p>A year after graduating from Texas Tech University -- young, single, restless, and itching for adventure -- I moved to China.</p>
+            <p>I spent a year learning Mandarin full-time and then got an MBA from the University of Hong Kong.  After the MBA I became the first employee at a Shanghai-based eCommerce startup where I built the Product and Marketing functions.  We were acquired in 2011.</p>
+            <p>I then moved to Mindshare, a large British media agency, where I managed a team of 15 local staff and oversaw the planning and execution of advertising campaigns for Nike, KFC, The North Face, Dyson, and other major brands in the China market.</p>
+            <p>I returned to the U.S. in 2015, completed an MA in China Studies at Johns Hopkings SAIS, and in 2017 began working in the White House on the Section 301 Investigation that sparked the "trade war" tariffs and negotiations with the PRC government.</p>
+            <p>In 2019, I joined Strider Technologies as employee #7, where I helped build the Intelligence and Product functions.</p>
+            <p>I now live in the Texas Hill Country with my wife and son (coming soon).</p>
           </div>
-          <div class="col-8">
-            <img src="img/lone-oak-tree.jpg" class="img-fluid banner-img" alt="lone oak tree">
-          </div>
+          
+          <div class="col-7 images">
+            
+            <div class="image-container">
+              <span style="--i: 1">
+                <img src="img/texas-tech-seal.png" alt="texas-tech-seal">
+              </span>
+              <span style="--i: 2">
+                <img src="img/shaanxi-normal-university.jpg" alt="shaanxi-normal-seal">
+              </span>
+              <span style="--i: 3">
+                <img src="img/hku-shield.jpeg" alt="hku-shield">
+              </span>
+              <span style="--i: 4">
+                <img src="img/jicocity-logo-1.jpeg" alt="jigocity-logo">
+              </span>
+              <span style="--i: 5">
+                <img src="img/kfc-china-logo.webp" alt="kfc-china-logo">
+              </span>
+              <span style="--i: 6">
+                <img src="img/nike-china.jpeg" alt="nike-china">
+              </span>
+              <span style="--i: 7">
+                <img src="img/hopkins-nanjing-center-logo.png" alt="hnc-logo">
+              </span>
+              <span style="--i: 8">
+                <img src="img/sais-logo.jpeg" alt="sais-logo">
+              </span>
+              <span style="--i: 9">
+                <img src="img/section-301-report.png" alt="section-301-report">
+              </span>
+              <span style="--i: 10">
+                <img src="img/quantum-dragon.png" alt="quantum-dragon">
+              </span>
+            </div>
+
+            <div class="btn-container">
+              <button class="btn" id="prev">Previous</button>
+              <button class="btn" id="next">Next</button>
+            </div>
+
+          </div>  
+
         </div>
+
       </div>
 
     </div>
+
 
     <footer class="container-fluid">
       <p>copyright 2024 | all rights reserved.</p>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="work.js"></script>
   </body>
 </html>

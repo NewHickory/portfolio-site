@@ -37,15 +37,78 @@ body * {
   width: 80%;
   margin: auto;
   background-color: white;
+  /* border: 3px dotted red; */
 }
 
 .banner-text {
+  position: relative;
   text-align: center;
-  font-size: x-large;
-  margin: 20px;
+  font-size: medium;
+  color: rgb(80, 80, 80);
+  margin: 40px;
 }
 
 
+
+.overlay-text {
+  position: absolute;
+  color: black;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: auto;
+  /* border: 3px solid green; */
+  .text {
+    text-align: left;
+    margin: auto;
+    /* border: 1px solid blue; */
+  }
+  .image {
+    margin: auto;
+    text-align: right;
+    /* border: 1px solid orange; */
+  }
+}
+
+.parallax {
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Give the value "fixed" to the background-attachment property to create the parallax scrolling effect */
+  background-attachment: fixed;
+  margin: 10px;
+}
+
+
+
+.library-img {
+  height: 600px;
+  background-image: url("/img/library/hearst-castle-library.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.90) saturate(0%);
+  opacity: 0.3;
+  border: 1px solid red;
+}
+
+.carousel-inner {
+  align-items: center;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  opacity: ;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
 
 footer {
   background-color: rgba(248, 249, 250, 1);

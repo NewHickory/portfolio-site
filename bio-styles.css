@@ -34,27 +34,50 @@ body * {
 }
 
 .main-container {
+  height: 80vh;
   width: 80%;
   margin: auto;
   background-color: white;
+  /* border: 3px dotted red; */
 }
 
 .banner-text {
+  position: relative;
   text-align: center;
-  font-size: x-large;
-  margin: 20px;
+  font-size: medium;
+  color: rgb(80, 80, 80);
+  margin: 40px;
 }
 
+.container-bio {
+  position: relative;
+  margin: auto;
+  color: black;
+  width: 90%;
+  font-size: auto;
+  /* border: 3px solid green; */
+}
 
+#bio-text {
+  text-align: left;
+  font-size: small;
+  /* border: 1px solid black; */
+}
 
+#bio-image {
+  margin: auto;
+  text-align: right;
+  /* border: 1px solid orange; */
+}
 
 
 footer {
   background-color: rgba(248, 249, 250, 1);
+  position: absolute;
+  min-height: 10%;
 }
 
 footer p {
-  padding: 20px;
   padding-top: 40px;
   text-align: center;
 }
