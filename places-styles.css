@@ -87,35 +87,35 @@ body * {
 }
 
 .west-texas-img {
-  background-image: url("/img/west_texas.jpg");
+  background-image: url("./img/west_texas.jpg");
 }
 
 .dallas-img {
-  background-image: url("/img/dallas.jpg");
+  background-image: url("./img/dallas.jpg");
 }
 
 .xian-img {
-  background-image: url("/img/xian-bell-tower.jpg");
+  background-image: url("./img/xian-bell-tower.jpg");
 }
 
 .hk-img {
-  background-image: url("/img/hong-kong-1.jpg");
+  background-image: url("./img/hong-kong-1.jpg");
 }
 
 .shanghai-img {
-  background-image: url("/img/shanghai.jpg");
+  background-image: url("./img/shanghai.jpg");
 }
 
 .nanjing-img {
-  background-image: url("/img/nanjing-2.jpg");
+  background-image: url("./img/nanjing-2.jpg");
 }
 
 .dc-img {
-  background-image: url("/img/washington_dc.jpg");
+  background-image: url("./img/washington_dc.jpg");
 }
 
 .austin-img {
-  background-image: url("/img/austin.jpg");
+  background-image: url("./img/austin.jpg");
 }
 
 footer {
