@@ -34,6 +34,7 @@ body * {
 }
 
 .main-container {
+  height: auto;
   width: 80%;
   margin: auto;
   background-color: white;
@@ -54,21 +55,13 @@ body * {
   position: absolute;
   color: black;
   width: 80%;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: auto;
+  opacity: 1;
+  z-index: 1;
   /* border: 3px solid green; */
-  .text {
-    text-align: left;
-    margin: auto;
-    /* border: 1px solid blue; */
-  }
-  .image {
-    margin: auto;
-    text-align: right;
-    /* border: 1px solid orange; */
-  }
 }
 
 .parallax {
@@ -90,16 +83,14 @@ body * {
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(0.90) saturate(0%);
-  opacity: 0.3;
-  border: 1px solid red;
+  opacity: 0.1;
 }
 
 .carousel-inner {
   align-items: center;
-  width: 300px;
+  width: 250px;
   margin: auto;
   padding: 20px;
-  opacity: ;
 }
 
 .carousel-control-prev-icon {
@@ -112,10 +103,12 @@ body * {
 
 footer {
   background-color: rgba(248, 249, 250, 1);
+  position: fixed;
+  bottom: 0;
 }
 
 footer p {
-  padding: 20px;
-  padding-top: 40px;
+  padding: 10px;
+  padding-top: 20px;
   text-align: center;
 }

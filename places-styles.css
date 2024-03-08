@@ -34,6 +34,7 @@ body * {
 }
 
 .main-container {
+  height: auto;
   width: 80%;
   margin: auto;
   background-color: white;
@@ -119,10 +120,12 @@ body * {
 
 footer {
   background-color: rgba(248, 249, 250, 1);
+  position: fixed;
+  bottom: 0;
 }
 
 footer p {
-  padding: 20px;
-  padding-top: 40px;
+  padding: 10px;
+  padding-top: 20px;
   text-align: center;
 }

@@ -34,12 +34,11 @@ body * {
 }
 
 .main-container {
-  height: 80vh;
+  height: auto;
   width: 80%;
   margin: auto;
   background-color: white;
   position: relative;
-  /* border: 3px dotted red; */
 }
 
 .banner-text {
@@ -127,12 +126,12 @@ body * {
 
 footer {
   background-color: rgba(248, 249, 250, 1);
-  position: absolute;
-  min-height: 10%;
+  position: fixed;
+  bottom: 0;
 }
 
 footer p {
-  padding: 20px;
-  padding-top: 40px;
+  padding: 10px;
+  padding-top: 20px;
   text-align: center;
 }

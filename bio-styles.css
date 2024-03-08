@@ -34,7 +34,8 @@ body * {
 }
 
 .main-container {
-  height: 80vh;
+  height: auto;
+  min-height: 80vh;
   width: 80%;
   margin: auto;
   background-color: white;
@@ -70,14 +71,14 @@ body * {
   /* border: 1px solid orange; */
 }
 
-
 footer {
   background-color: rgba(248, 249, 250, 1);
-  position: absolute;
-  min-height: 10%;
+  position: fixed;
+  bottom: 0;
 }
 
 footer p {
-  padding-top: 40px;
+  padding: 10px;
+  padding-top: 20px;
   text-align: center;
 }
