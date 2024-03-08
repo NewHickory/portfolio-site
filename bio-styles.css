@@ -34,7 +34,7 @@ body * {
 }
 
 .main-container {
-  height: auto;
+  height: 100vh;
   min-height: 80vh;
   width: 80%;
   margin: auto;
@@ -57,6 +57,49 @@ body * {
   width: 90%;
   font-size: auto;
   /* border: 3px solid green; */
+}
+
+.overlay-content {
+  text-align: center;
+  position: relative;
+  justify-content: center;
+}
+
+.overlay-text {
+  position: absolute;
+  color: black;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: auto;
+  /* border: 3px solid green; */
+  .text {
+    text-align: left;
+    margin: auto;
+    /* border: 1px solid blue; */
+  }
+  .image {
+    margin: auto;
+    text-align: right;
+    /* border: 1px solid orange; */
+  }
+}
+
+.parallax {
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Give the value "fixed" to the background-attachment property to create the parallax scrolling effect */
+  background-attachment: fixed;
+  margin: 10px;
+}
+
+.grand-teton-img {
+  background-image: url("./img/grand-teton.jpeg");
+  filter: brightness(0.90) saturate(0%);
+  opacity: 0.3;
 }
 
 #bio-text {
